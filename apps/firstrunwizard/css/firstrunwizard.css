@@ -1,0 +1,12 @@
+#firstrunwizard .firstrunwizard-header {
+	background-image: url('../../../core/img/background.jpg');
+}
+
+#firstrunwizard .firstrunwizard-content > a,
+#firstrunwizard .firstrunwizard-content h2:first-child {
+	display: none;
+}
+
+#firstrunwizard .footnote {
+	margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+{ "translations": {
+    "First run wizard" : "Einrichtungsassistent",
+    "Add your profile information! For example your email is needed to reset your password." : "Füge deine Profil-Informationen hinzu! Z.B. wird deine E-Mail Adresse zum Zurücksetzen deines Passwortes benötigt.",
+    "Access & share your files, calendars, contacts, mail & more from any device, on your terms" : "",
+    "Get the apps to sync your files" : "Lade die Apps zur Synchronisierung Deiner Daten herunter",
+    "Desktop client" : "Desktop-Client",
+    "Android app" : "Android-App",
+    "iOS app" : "iOS-App",
+    "Connect your desktop apps to %s" : "Dein Zugang zur Aktivenplattform muss noch freigeschaltet werden",
+    "Connect your Calendar" : "Verbinde Deine Kalender ",
+    "Connect your Contacts" : "Verbinde Deine Kontakte",
+    "Access files via WebDAV" : "Greife auf Dateien über WebDAV zu",
+    "There’s more information in the <a target=\"_blank\" href=\"%s\">documentation</a> and on our <a target=\"_blank\" href=\"%s\">website</a>." : "Um zu bestätigen, dass du bei ROBIN WOOD aktiv bist, wende dich bitte an einen Aktiven, der schon einen Zugang zur Aktivenplattform besitzt und bitte ihn als Bestätigung, eine kurze E-Mail an tim.christensen@robinwood.de zu schicken.",
+    "If you like Nextcloud, <a href=\"mailto:?subject=Nextcloud &body=Nextcloud is a great open software to sync and share your files. You can freely get it from https://nextcloud.com\"> recommend it to your friends</a> and <a href=\"https://nextcloud.com/contribute/\" target=\"_blank\">contribute back</a>!" : "Wenn du noch nicht bei ROBIN WOOD aktiv bist, aber Interesse daran hast, sende eine E-Mail an tim.christensen@robinwood.de, um zu erfahren, wie du aktiv werden kannst. "
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}

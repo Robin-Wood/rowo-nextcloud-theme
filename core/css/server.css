@@ -1,0 +1,200 @@
+@font-face {
+                font-family: 'MarkOT';
+                font-style: normal;
+                font-weight: normal;
+                src: local('MarkOT'), local('Mark OT'), url('../fonts/MarkOT.otf') format('opentype');
+        }
+
+/* hover effect for app switcher label */
+.header-appname-container .header-appname,
+.menutoggle .icon-caret {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+        opacity: .85;
+}
+
+
+body {
+	font-family: 'MarkOT', 'Open Sans', Frutiger, Calibri, 'Myriad Pro', Myriad, sans-serif;
+}
+
+
+/* LOG IN & INSTALLATION ------------------------------------------------------------ */
+
+/* Alternative Logins */
+#alternative-logins legend {
+	display: none;
+}
+#alternative-logins li {
+	width: 100%;
+}
+#alternative-logins li a.button {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 269px;
+}
+
+
+/* log in screen background color */
+/* gradient of the header color and a brighter shade */
+/* can also be a flat color or an image */
+#body-login {
+	background-color: #a2c617;
+	background-image: url('../img/background.jpg');
+	/*background: #a2c617;*/ /* Old browsers */
+	/*background: -moz-linear-gradient(top, #a2c617 0%, #a2c617 100%);*/ /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#947bea), color-stop(100%,#a2c617));*/ /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top, #947bea 0%,#a2c617 100%);*/ /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top, #947bea 0%,#a2c617 100%);*/ /* Opera11.10+ */
+	/*background: -ms-linear-gradient(top, #947bea 0%,#a2c617 100%);*/ /* IE10+ */
+	/*background: linear-gradient(top, #947bea 0%,#a2c617 100%);*/ /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#947bea', endColorstr='#a2c617',GradientType=0 );*/ /* IE6-9 */
+}
+
+/* use logos from theme */
+#header .logo {
+	background-image: url('../img/logo.png');
+	background-size: 269px;
+	width: 269px
+}
+
+/* LOGO and APP NAME -------------------------------------------------------- */
+
+#nextcloud {
+        padding: 7px;
+}
+#header .logo.logo-icon {
+        /* display logo so appname can be shown next to it */
+        background-image: url('../img/logo-icon.png');
+        background-size: 130px;
+	width: 130px;
+        height: 31px;
+}
+
+/* VEREINFACHUNGEN --------------------------------------------------------------- */
+
+#navigation li[data-id="gallery"],
+#appmenu li[data-id="gallery"],
+.app-files #app-navigation li.nav-sharinglinks,
+.app-files #app-navigation li.nav-sharingout,
+.app-files #app-navigation li.nav-sharingin {
+        display: none;
+}
+
+div.nextant_details {
+	display: none;
+}
+
+input.primary,
+#alternative-logins li a.button,
+#body-login input#submit {
+	background-color: rgb(124,124,124);
+	border-radius: .5rem;
+	border: 1px solid rgb(124,124,124);
+	color: white;
+	padding: .8rem 1.5rem;
+	text-align: center;
+	margin: 5px;
+}
+
+input.primary:hover,
+#alternative-logins li a.button:hover,
+#body-login input#submit:hover {
+	background-color: rgb(60,60,60);
+}
+
+#fileList tr[data-id="4142"] span.innernametext {
+	font-weight: 900;
+}
+
+.warning,
+#body-login .error,
+.update,
+.msg {
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-weight: 900;
+	margin: 5px;
+}
+
+a.warning,
+#body-login a.error {
+	background-color: rgb(124,124,124);
+	border-radius: .5rem;
+	border: 1px solid rgb(124,124,124);
+	margin: 5px;
+}
+
+a.warning:hover {
+	background-color: rgb(60,60,60);
+}
+
+.remember-login-container,
+#body-settings .ransomware-protection,
+#body-settings #nav-icon-ransomware-protection {
+	display: none;
+}
+
+tr[data-mounttype="group"][data-type="dir"] div.thumbnail {
+	background-image: url('../../apps/groupfolders/img/folder-group.svg') !important;
+}
+
+tr[data-mounttype="group"][data-type="dir"] td.filesize,
+#filestable tfoot td.filesize {
+	font-size: 0;
+}
+
+select:not(:disabled):not(.primary):not(#quota):hover,button:not(:disabled):not(.primary):not(#quota):hover,.button:not(:disabled):not(.primary):not(#quota):hover,input:not([type='range']):not(:disabled):not(.primary):not(#quota):hover,textarea:not(:disabled):not(.primary):not(#quota):hover,#quota:not(:disabled):not(.primary):not(#quota):hover,.pager li a:not(:disabled):not(.primary):not(#quota):hover,select:not(:disabled):not(.primary):focus,button:not(:disabled):not(.primary):focus,.button:not(:disabled):not(.primary):focus,input:not([type='range']):not(:disabled):not(.primary):focus,textarea:not(:disabled):not(.primary):focus,#quota:not(:disabled):not(.primary):focus,.pager li a:not(:disabled):not(.primary):focus,select:not(:disabled):not(.primary).active,button:not(:disabled):not(.primary).active,.button:not(:disabled):not(.primary).active,input:not([type='range']):not(:disabled):not(.primary).active,textarea:not(:disabled):not(.primary).active,#quota:not(:disabled):not(.primary).active,.pager li a:not(:disabled):not(.primary).active {
+	border-color: #a2c617;
+}
+
+#appmenu li a {
+	opacity: 0.75;
+}
+
+input[type='checkbox'].radio:not(:disabled):not(:checked) + label:hover:before,
+input[type='radio'].radio:not(:disabled):not(:checked) + label:hover:before,
+input[type='checkbox'].checkbox:not(:disabled):not(:checked) + label:hover:before
+,input[type='radio'].checkbox:not(:disabled):not(:checked) + label:hover:before,
+input[type='checkbox'].radio:focus + label:before,
+input[type='radio'].radio:focus + label:before,
+input[type='checkbox'].checkbox:focus + label:before,
+input[type='radio'].checkbox:focus + label:before {
+	border-color:#a2c617;
+}
+
+input[type='checkbox'].radio:checked + label:before,
+input[type='radio'].radio:checked + label:before,
+input[type='checkbox'].checkbox:checked + label:before,
+input[type='radio'].checkbox:checked + label:before,
+input[type='checkbox'].radio.checkbox:indeterminate + label:before,
+input[type='radio'].radio.checkbox:indeterminate + label:before,
+input[type='checkbox'].checkbox.checkbox:indeterminate + label:before,
+input[type='radio'].checkbox.checkbox:indeterminate + label:before {
+	background-color:#a2c617;
+	border-color:#a2c617;
+}
+
+#filestable tr[data-id="210286"] span.innernametext {
+	font-weight: bold;
+}
+
+#app-popup .background .window .title {
+	background-color: #a2c617;
+}
+
+button.primary {
+	background-color: #a2c617;
+}
+
+button.primary:hover {
+	background-color: #a2c617!important;
+	color: #6d6d6d;
+}
+
+
+/* App: News */
+
+.app-news #app-navigation > ul > li.explore-feed {
+	display: none;
+}
