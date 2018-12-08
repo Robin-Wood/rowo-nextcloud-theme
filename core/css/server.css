@@ -55,7 +55,6 @@ a.warning:hover {
   background-image: url("../img/logo-icon.png");
   background-size: 130px;
   width: 130px;
-  height: 31px;
 }
 
 input[type='checkbox'].radio:not(:disabled):not(:checked) + label:hover:before,
