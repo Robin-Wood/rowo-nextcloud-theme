@@ -11,6 +11,10 @@ body {
   font-family: 'MarkOT', 'Open Sans', Frutiger, Calibri, 'Myriad Pro', Myriad, sans-serif;
 }
 
+strong {
+  font-weight: bold;
+}
+
 /* Corporate Design: Login-Screen */
 #body-login {
   background-color: #a2c617;
