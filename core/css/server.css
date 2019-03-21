@@ -171,6 +171,11 @@ tr[data-mounttype="group"][data-type="dir"] td.filesize,
   width: 269px;
 }
 
+#alternative-logins:before {
+  color: white;
+  content: 'Die Aktivenplattform ist für Menschen gedacht, die bereits bei ROBIN WOOD aktiv sind. Wenn du wissen willst, wie du aktiv werden kannst, melde dich unter aktivwerden@robinwood.de';
+}
+
 /* App: News */
 .app-news #app-navigation > ul > li.explore-feed {
   display: none;
