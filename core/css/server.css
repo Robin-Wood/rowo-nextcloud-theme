@@ -2,9 +2,19 @@
 /* Fonts */
 @font-face {
   font-family: 'MarkOT';
-  font-style: normal;
-  font-weight: normal;
-  src: local("MarkOT"), local("Mark OT"), url("../fonts/MarkOT.otf") format("opentype");
+  src: url("../fonts/MarkOT.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'MarkOT';
+  font-weight: bold;
+  src: url("../fonts/MarkOT-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'MarkOT';
+  font-style: italic;
+  src: url("../fonts/MarkOT-Italic.otf") format("opentype");
 }
 
 body {
