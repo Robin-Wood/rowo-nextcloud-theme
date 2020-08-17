@@ -19,6 +19,7 @@ strong {
 #body-login {
   background-color: #a2c617;
   background-image: url("../img/background.jpg");
+  background-size: cover;
 }
 
 .warning,
@@ -45,6 +46,10 @@ a.warning:hover {
 }
 
 /* Corporate Design */
+#header {
+  background-image: none!important;
+}
+
 #header .logo {
   background-image: url("../img/logo.png");
   background-size: 269px;
@@ -194,8 +199,8 @@ tr[data-mounttype="group"][data-type="dir"] td.filesize,
 }
 
 /* Überflüssiges ausblenden */
-#navigation li[data-id="gallery"],
-#appmenu li[data-id="gallery"] {
+#navigation li[data-id="photos"],
+#appmenu li[data-id="photos"] {
   display: none;
 }
 
